@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "700793386179",
+    "project_id": "neil-lad",
+    "storage_bucket": "neil-lad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700793386179:android:99eba5679da011a3fcde76",
+        "android_client_info": {
+          "package_name": "com.example.neillad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700793386179-dcthvah7n4jpnpacmmk0gr6fb2cmakmp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.neillad",
+            "certificate_hash": "c27e2084ea3a18159d9a19510f0d89151758794a"
+          }
+        },
+        {
+          "client_id": "700793386179-6f94nnn01bva92aamaguucu93a3e7amb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeu_fScW_jiebqRU0ZRB_dMBokRLoDiQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700793386179-6f94nnn01bva92aamaguucu93a3e7amb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

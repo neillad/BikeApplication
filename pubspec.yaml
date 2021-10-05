@@ -1,0 +1,195 @@
+name: otpapplication
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pinput: ^1.2.0
+  firebase_core: ^1.7.0
+  firebase_auth: ^3.1.2
+  cupertino_icons: ^1.0.2
+  scroll_snap_list: ^0.8.2
+  dropdownfield: ^1.0.3
+  firebase_core_web: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - assets/images/electricbikelogo.png
+   - assets/images/luxurybikelogo.png
+   - assets/images/nakedbikelogo.png
+   - assets/images/sportsbikelogo.png
+   - assets/images/Logo.png
+   - assets/images/sportsbike.png
+   - assets/images/dirtbike.png
+   - assets/images/nakedbike.png
+   - assets/images/electricbike.png
+   - assets/images/adventurebike.png
+   - assets/images/Luxarybike.png
+   - assets/images/bluebike.png
+   - assets/images/profilepic2.jpeg
+   - assets/images/meter.png
+   - assets/images/doodle.png
+   - assets/images/design1.png
+   - assets/images/design2.png
+   - assets/images/design3.png
+   - assets/images/design4.png
+   - assets/images/firework.png
+   - assets/images/turnercycle.png
+   - assets/images/hayabusa.png
+   - assets/images/ns200.png
+   - assets/images/suzukilogo.png
+   - assets/images/royalenfieldlogo.png
+   - assets/images/kawasakilogo.png
+   - assets/images/hondalogo.png
+   - assets/images/yamahalogo.png
+   - assets/images/ktmlogo.png
+   - assets/images/bmwlogo.png
+   - assets/images/adventure/bmw310.png
+   - assets/images/adventure/bmw310gs.png
+   - assets/images/adventure/ktm250.png
+   - assets/images/adventure/ktm390.png
+   - assets/images/adventure/royalenfield.png
+   - assets/images/adventure/tiger.png
+   - assets/images/adventure/trk.png
+   - assets/images/adventure/vstrom.png
+   - assets/images/adventure/xpulse.png
+   - assets/images/weight.png
+   - assets/images/engine.png
+   - assets/images/topspeed.png
+   - assets/images/mileage.png
+   - assets/images/mumbai.png
+   - assets/images/bangalore.png
+   - assets/images/delhi.png
+   - assets/images/pune.png
+   - assets/images/chennai.png
+   - assets/images/kolkata.png
+   - assets/images/adventure/royalenfield350.png
+   - assets/images/naked/duke250.png
+   - assets/images/naked/duke125.png
+   - assets/images/naked/duke200.png
+   - assets/images/naked/duke390.png
+   - assets/images/sports/rc200.png
+   - assets/images/sports/rc125.png
+   - assets/images/naked/benelli502.png
+   - assets/images/adventure/benelli400.png
+   - assets/images/adventure/vulcan.png
+   - assets/images/naked/benelli502.png
+   - assets/images/naked/z650.png
+   - assets/images/naked/z1000.png
+   - assets/images/sports/ninja300.png
+   - assets/images/sports/ninja650.png
+   - assets/images/sports/ninja1000.png
+   - assets/images/dirt/kawasakiklx110.png
+   - assets/images/dirt/kawasakikx250.png
+   - assets/images/dirt/kawasakikx450.png
+   - assets/images/dirt/suzukirmz250.png
+   - assets/images/dirt/suzukidrz250.png
+   - assets/images/adventure/suzuki150.png
+   - assets/images/luxury/triumpbonevillat120.png
+   - assets/images/luxury/triumpscrambler1200.png
+   - assets/images/luxury/triumpstreettwin.png
+   - assets/images/naked/triumpstreettripler.png
+   - assets/images/naked/triumpstreettriplers.png
+   - assets/images/naked/triumptrident.png
+   - assets/images/naked/z650.png
+   - assets/images/naked/z1000.png
+   - assets/images/naked/gixxer.png
+   - assets/images/naked/bmwscrambler.png
+   - assets/images/sports/bmw1000r.png
+   - assets/images/sports/bmw1000rr.png
+   - assets/images/sports/gixxer250sf.png
+   - assets/images/sports/gixxersf.png
+   - assets/images/sports/hayabusa.png
+   - assets/images/sports/ninja300.png
+   - assets/images/sports/ninja650.png
+   - assets/images/sports/ninja1000.png
+   - assets/images/sports/rc125.png
+   - assets/images/sports/rc200.png
+   - assets/images/naked/triumptrident.png
+   - assets/images/electric/revolt300.png
+   - assets/images/electric/revoltrv400.png
+   - assets/images/star.png
+   - assets/images/budget.png
+   - assets/images/revoltlogo.png
+   - assets/images/triumplogo.png
+   - assets/images/tvsherologo.png
+   - assets/images/ducatilogo.png
+   - assets/images/benellilogo.png
+   - assets/images/adventure/bmwgs1250.png
+   - assets/images/adventure/bmw310.png
+   - assets/images/adventure/bmw310gs.png
+   - assets/images/adventure/meteor350.png
+   - assets/images/adventure/bullet350.png
+   - assets/images/adventure/classic350.png
+   - assets/images/adventure/interceptor650.png
+   - assets/images/adventure/heropassionpro110.png
+   - assets/images/adventure/herosplenderx.png
+   - assets/images/adventure/heroxstream160r.png
+   - assets/images/sports/heroxstream200s.png
+   - assets/images/adventure/yamahafzfi.png
+   - assets/images/adventure/yamahafzx.png
+   - assets/images/adventure/yamahamt15.png
+   - assets/images/adventure/yamahar15.png
+   
+
+   
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
